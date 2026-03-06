@@ -1,0 +1,9 @@
+requests>=2.28.0
+beautifulsoup4>=4.11.0
+
+# Optional: bypass 403 (try in order)
+# cloudscraper>=1.2.71   # Cloudflare bypass, auto-tried on 403
+# playwright>=1.40.0     # Real browser; use with --use-browser (then: playwright install chromium)
+
+# Optional: for Piper dataset prep (normalize WAV to 22050 Hz mono)
+# pydub>=1.4.0

@@ -1,0 +1,149 @@
+wav_path,dialogue
+wav_output/Intro02_Hello_ItsMeBEEMO.wav,"Hello! It's me, BMO!"
+wav_output/Intro01_HELLO_there.wav,"Well, hello there!"
+wav_output/Intro06_Its_beemo_Time.wav,It's BMO time!
+wav_output/Game_Select09_Lets_Play.wav,Let's play!
+wav_output/Other06_1_boopBoop.wav,♫♪Boop-boop-bee-boop.♫♪
+wav_output/Poke05_MyFace.wav,My face!
+wav_output/Poke06_BeGentle.wav,Please be gentle with BMO!
+wav_output/Poke07_knockItOff.wav,Knock it off!
+wav_output/Poke08_whyAreYouPoking.wav,Why are you poking at me?
+wav_output/Shake04_thatWasFun.wav,That was fun!
+wav_output/Shake05_DancingMachine.wav,I'm a dancing machine!
+wav_output/Shake06_dontShakeMeTooHard.wav,Don't shake me too hard.
+wav_output/Shake07_easyOnTheMerch.wav,Easy on the merchandise.
+wav_output/Shake09_pleaseStopShakingBeemo.wav,Please stop shaking BMO.
+wav_output/Tickle01_ThatTickles1.wav,That tickles!
+wav_output/Tickle05_cutThatOut.wav,Cut that out!
+wav_output/Tickle06_tooMuchTickling.wav,Too much tickling!
+wav_output/HELP_App_Instructions02_touchMenu_items.wav,Push in my buttons.
+wav_output/HELP_App_Instructions04_d_pad.wav,Use the D-pad to scroll.
+wav_output/HELP_App_Instructions05_select_btn.wav,Push this button to select.
+wav_output/HELP_App_Instructions06_mainMenu_btn.wav,Push this button for the main menu.
+wav_output/HELP_App_push_triangle_Btn.wav,Push the triangle button.
+wav_output/HELP_Other29_touch_menu_items_alt.wav,My face is a touchscreen.
+wav_output/Other03_word.wav,Word.
+wav_output/Other18_makeAChoice.wav,Make a choice!
+wav_output/Other19_touchYourChoice.wav,Touch your choice!
+wav_output/General_Games01_whoWantsToPlayVideoGames.wav,Who wants to play video games?
+wav_output/General_Games02_madeThisJustForYou.wav,I made this video game just for you!
+wav_output/General_Games11_thatWasAWESOME.wav,That was awesome!
+wav_output/General_Games29_PONEAGE.wav,Poneage!
+wav_output/Player_Win01_defeated_notDeleted.wav,"I have been defeated, but not deleted!"
+wav_output/Player_Win02_youWin.wav,You win!
+wav_output/Player_Win03_player1No1.wav,Player 1 is #1!
+wav_output/Player_Win04_NiceJob.wav,Nice job!
+wav_output/Player_Win05_youWonIt.wav,You won it!
+wav_output/Player_Win06_congratulations.wav,Congratulations! You're our state champion!
+wav_output/Player_Win07_VICTORY.wav,Victory!
+wav_output/Player_Win09_DoYouWantToPLayAgain.wav,Do you want to play again?
+wav_output/Player_Lose01_iWin.wav,I win!
+wav_output/Player_Lose02_beemoWins.wav,BMO wins!
+wav_output/Player_Lose03_bowToSensei.wav,Bow to your sensei.
+wav_output/Player_Lose04_BeemoNo_1.wav,Bmo is #1!
+wav_output/Player_Lose05_TotalDomination.wav,Total domination!
+wav_output/Player_Lose06_betterLuckNextTime.wav,Better luck next time!
+wav_output/Player_Lose09_GAMEOVER.wav,Game over.
+wav_output/Game_Select07_ConversationParade.wav,Conversation Parade!
+wav_output/Game_Select08_conversationParade_alt.wav,Let's talk!
+wav_output/Conversation_Parade_Starters01.wav,What do you think about the stars in the sky?
+wav_output/Conversation_Parade_Starters02.wav,What is your favorite color of ice cream?
+wav_output/Conversation_Parade_Starters03.wav,What do you think about Jake's puppies?
+wav_output/Conversation_Parade_Starters04.wav,Would you rather be a Dracula or a Frankenstein?
+wav_output/Conversation_Parade_Starters05.wav,What do you think about the weather today?
+wav_output/Conversation_Parade_Starters06.wav,Have you ever committed a crime...of passion?
+wav_output/Conversation_Parade_Starters07.wav,What would you do with $100 bill?
+wav_output/Conversation_Parade_Starters08.wav,What would you do with three magic wishes from three magic fishes?
+wav_output/Conversation_Parade_Starters09.wav,What would you do if you fell in love with a Martian?
+wav_output/Conversation_Parade_Starters10.wav,How are you today?
+wav_output/Conversation_Parade_Starters11.wav,What is up with you?
+wav_output/Conversation_Parade_Starters12.wav,So what do you think about the current event?
+wav_output/Conversation_Parade_Starters13.wav,What do you think of my face?
+wav_output/Conversation_Parade_Starters14.wav,What does this look like to you?
+wav_output/Conversation_Parade_Starters15.wav,Tell BMO a story!
+wav_output/Conversation_Parade_Starters16.wav,Do you know any good jokes?
+wav_output/Conversation_Parade_Starters17.wav,Who do you think that Finn should be dating?
+wav_output/Conversation_Parade_Starters18.wav,What is it like to be a living human person?
+wav_output/Conversation_Parade_Starters19.wav,What video game do you like the best?
+wav_output/Conversation_Parade_Starters20.wav,What is the most awesome thing you have ever done?
+wav_output/Conversation_Parade_Starters21.wav,What's it like to have a nose?
+wav_output/Conversation_Parade_Starters22.wav,What does your name mean?
+wav_output/Conversation_Parade_Starters23.wav,"If you were a robot, what kind of robot would you be?"
+wav_output/Conversation_Parade_Starters24.wav,Tell me about an awesome dream that you had.
+wav_output/Conversation_Parade_Starters25.wav,Say something in a funny voice!
+wav_output/Conversation_Parade_Starters26.wav,What is your favorite clothing to wear?
+wav_output/Conversation_Parade_Starters27.wav,What would happen if you got lost in the ocean of dreams inside of your mindscape?
+wav_output/Conversation_Parade_Starters28.wav,How do you feel about seedless watermelon?
+wav_output/Conversation_Parade_Starters29.wav,How do you feel about giant spiders?
+wav_output/Conversation_Parade_Starters30.wav,How many kinds of fruit can you name?
+wav_output/Conversation_Parade_Starters31.wav,What would happen if you ate a spicy meatball?
+wav_output/Conversation_Parade_Interested01.wav,That is an interesting response.
+wav_output/Conversation_Parade_Interested02.wav,Very interesting.
+wav_output/Conversation_Parade_Interested03.wav,"Oh, that sounds wonderful!"
+wav_output/Conversation_Parade_Interested04.wav,Okay.
+wav_output/Conversation_Parade_Interested05.wav,Uh-huh.
+wav_output/Conversation_Parade_Interested06.wav,Oh!
+wav_output/Conversation_Parade_Interested07.wav,Go on.
+wav_output/Conversation_Parade_Interested08.wav,That's fantastic!
+wav_output/Conversation_Parade_Interested09.wav,That DOES compute!
+wav_output/Conversation_Parade_Interested10.wav,You are starting to make sense!
+wav_output/Conversation_Parade_Interested11.wav,What you're saying makes complete sense to me.
+wav_output/Conversation_Parade_Interested12.wav,No way!
+wav_output/Conversation_Parade_Interested13.wav,Is that true?
+wav_output/Conversation_Parade_Interested14.wav,Are you kidding with me?
+wav_output/Conversation_Parade_Interested15.wav,Tell me about it!
+wav_output/Conversation_Parade_Interested16.wav,Tell me more!
+wav_output/Conversation_Parade_Bored01.wav,Hmmm...
+wav_output/Conversation_Parade_Bored02.wav,I don't know what it means.
+wav_output/Conversation_Parade_Bored03.wav,(yawning)
+wav_output/Conversation_Parade_Bored04.wav,That does not compute.
+wav_output/Conversation_Parade_Bored05.wav,Interest level dropping.
+wav_output/Conversation_Parade_Bored06.wav,Interest level: low.
+wav_output/Conversation_Parade_Bored07.wav,Tell me about something more exciting!
+wav_output/Conversation_Parade_Bored08.wav,BMO is bored now...
+wav_output/Conversation_Parade_Bored09.wav,So bored...
+wav_output/Conversation_Parade_Bored10.wav,"Can I have a chat, please?"
+wav_output/Conversation_Parade_Bored11.wav,That's terrible!
+wav_output/Conversation_Parade_Bored12.wav,Did you say something?
+wav_output/Conversation_Parade_Bored13.wav,So boooring... Sleep sequence initiating.
+wav_output/Conversation_Parade_Bored14.wav,Zzz...zzz...Zzz...zzz...
+wav_output/Conversation_Parade_Bored15.wav,Do you have any other stories?
+wav_output/Conversation_Parade_Bored16.wav,You are being too boring!
+wav_output/Conversation_Parade_Random01.wav,"You've been talking to Loraine, haven't you?"
+wav_output/Conversation_Parade_Random02.wav,Can you repeat that?
+wav_output/Conversation_Parade_Random03.wav,I'd rather be eating up a pizza.
+wav_output/Conversation_Parade_Random04.wav,"Could you spell that, please?"
+wav_output/Conversation_Parade_Random05.wav,Would you mind just speaking a little louder?
+wav_output/Conversation_Parade_Random06.wav,It is too noisy in here...
+wav_output/Conversation_Parade_Random07.wav,I can't hear you with all that racket!
+wav_output/Conversation_Parade_Random08.wav,Try a quieter room.
+wav_output/Conversation_Parade_Sleep01.wav,Not interested. Initiating sleep sequence.
+wav_output/Conversation_Parade_Sleep02.wav,BMO powering down.
+wav_output/Conversation_Parade_Sleep03.wav,Time out.
+wav_output/Conversation_Parade_Sleep04.wav,Falling asleep. Goodnight.
+wav_output/Conversation_Parade_Wake01.wav,"Okay, okay! One more try!"
+wav_output/Conversation_Parade_Wake02.wav,I am up!
+wav_output/Conversation_Parade_Wake03.wav,Powering back up!
+wav_output/Conversation_Parade_Wake04.wav,Oh hi! You're still there!
+wav_output/MainMenu_soundboard_Promotion10.mp3.wav,BMO is a soundboard!
+wav_output/MainMenu_Soundboard01.mp3.wav,Soundboard!
+wav_output/Soundboard04_lookWhosTalking.mp3.wav,Look who's talking!
+wav_output/Camera01_camera.wav,Camera!
+wav_output/Camera02_beemoIsCamera.wav,BMO is camera!
+wav_output/Camera05_beemoCam.wav,BMO Cam!
+wav_output/MainMenu_Wallpapers01.wav,Wallpapers!
+wav_output/Wallpapers02_putThemOnYourScreen.wav,Put them on your screen!
+wav_output/Wallpapers03_paperAllOverYourWall.wav,Paper them all over your wall!
+wav_output/Wallpapers04_specialWallpapers.wav,Very special wallpapers for you!
+wav_output/Ahh.wav,(giggling)
+wav_output/Ahhh.wav,(gasping loudly)
+wav_output/Angry.wav,(groans)
+wav_output/Brow_Raise.wav,"Hmm, mhm."
+wav_output/Frown.wav,Hmm.
+wav_output/Conversation_Parade_Interested06.wav,Oh!
+wav_output/Ouch.wav,Ow!
+wav_output/Poke02_2_OUCH2.wav,Ouch!
+wav_output/Conversation_Parade_Bored14.wav,Zzz...zzz...Zzz...zzz...
+wav_output/Smile.wav,Hmhm!
+wav_output/Whee.wav,Wheee!
+wav_output/Whoa.wav,Whoa!
