@@ -2,10 +2,11 @@
 """
 Convert bmo_voice_fetch output (dialogue.csv + WAVs) into a Piper TTS dataset.
 
-Piper expects:
+Piper (piper1-gpl) expects:
   - A directory with wav/ and metadata.csv
-  - metadata.csv: pipe-delimited, no header, format "id|text" (id = filename stem)
-  - WAVs: mono, 22050 Hz (high/medium quality)
+  - metadata.csv: pipe-delimited, no header, format "filename.wav|text"
+    (first column = audio file name as in wav/, second = text for espeak-ng)
+  - WAVs: mono, 22050 Hz (librosa-supported format)
 
 Usage:
   python prepare_piper_dataset.py wav_output/dialogue.csv -o piper_dataset
@@ -116,30 +117,32 @@ def main() -> None:
         else:
             shutil.copy2(wav_path, dest)
 
-    # Piper metadata: id|text (id = filename without extension), no header
+    # Piper (piper1-gpl) metadata: filename.wav|text, no header
     metadata_path = out_dir / "metadata.csv"
     with open(metadata_path, "w", newline="", encoding="utf-8") as f:
         for wav_path, text in rows:
-            stem = wav_path.stem
-            # Escape any newlines in text for single line per utterance
-            line = f"{stem}|{text.replace(chr(10), ' ').replace(chr(13), ' ')}\n"
+            # First column = file name as in wav/ (required by piper.train --data.audio_dir)
+            fname = wav_path.name
+            line = f"{fname}|{text.replace(chr(10), ' ').replace(chr(13), ' ')}\n"
             f.write(line)
 
     print(f"Piper dataset written to: {out_dir}")
     print(f"  wav/: {len(rows)} files")
-    print(f"  metadata.csv: pipe-delimited id|text (no header)")
+    print(f"  metadata.csv: pipe-delimited filename.wav|text (no header)")
     print()
-    print("Next steps (Piper training):")
-    print("  1. Install Piper training env: https://github.com/rhasspy/piper")
-    print("  2. Preprocess:")
-    print(f"     python3 -m piper_train.preprocess \\")
-    print(f"       --language en-us \\")
-    print(f"       --input-dir {out_dir} \\")
-    print(f"       --output-dir {out_dir}/training \\")
-    print(f"       --dataset-format ljspeech \\")
-    print(f"       --single-speaker \\")
-    print(f"       --sample-rate {args.sample_rate}")
-    print("  3. Fine-tune from a checkpoint (see PIPER_TRAINING.md)")
+    print("Next steps (piper1-gpl training):")
+    print("  1. Clone and install: https://github.com/OHF-Voice/piper1-gpl (see PIPER_TRAINING.md)")
+    print("  2. Run training (no separate preprocess):")
+    print(f"     python3 -m piper.train fit \\")
+    print(f"       --data.voice_name \"bmo\" \\")
+    print(f"       --data.csv_path {metadata_path} \\")
+    print(f"       --data.audio_dir {wav_dir} \\")
+    print(f"       --model.sample_rate {args.sample_rate} \\")
+    print(f"       --data.espeak_voice \"en-us\" \\")
+    print(f"       --data.cache_dir {out_dir}/cache \\")
+    print(f"       --data.config_path {out_dir}/config.json \\")
+    print(f"       --data.batch_size 32 \\")
+    print(f"       --ckpt_path /path/to/checkpoint.ckpt")
 
 
 if __name__ == "__main__":
